@@ -137,10 +137,26 @@ body {
    letter-spacing: 0.02em;
 
    color: var(--link-head-color);
+   background-image: url(../images/mail.svg);
+   background-repeat: no-repeat;
+
 }
 
+
+.contact::before {
+   contain: '';
+   background-image: url(../images/mail.svg);
+   height: 12px;
+   width: 16px;
+
+}
 /* ---main section HERO----------------*/
 .hero {
+   background-image: url(../images/hero-bg.jpg);
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+   
    padding-top: 200px;
    padding-bottom: 200px;
 
